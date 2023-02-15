@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    margin-top: 55px;
+}
+
+.profil {
+    margin-left: 120px;
+}
+
+.icon1 {
+    margin-left: 50px;
+}
+
+.card-title {
+    height: 180px;
+}
+
+.card-right {
+    text-overflow: ellipsis;
+    float: right;
+    overflow: hidden;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.card-left {
+    text-overflow: ellipsis;
+    width: 65%;
+    overflow: hidden;
+    align-items: center;
+}
+
+span {
+    margin-left: 8px;
+}
+
+
+@media (max-width: 768px){
+    
+    .card-title {
+        height: 80px;
+    }
+    .profil {
+        margin: auto;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .btn-light {
+        margin-right: 40px;
+        padding-top: 20px;
+    }
+
+}
+
+
+

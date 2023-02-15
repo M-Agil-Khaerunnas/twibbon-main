@@ -1,0 +1,86 @@
+body {
+    overflow-x: hidden;
+}
+
+#profile {
+    margin-top: 55px;
+}
+
+.container3 {
+    margin-left: 15%;
+    margin-bottom: 15px;
+}
+
+.icon1 {
+    margin-left: 70px;
+}
+
+.text1 {
+    margin-left: 30px;
+}
+
+.card-bg-ligth {
+    width: 300px;
+}
+
+.lingkaran {
+    margin-top: 70px;
+    margin-left: 110px;
+}
+button {
+    margin-right: 15px;
+}
+
+
+.card-title {
+    height: 180px;
+}
+
+.kotak {
+    align-items: center;
+}
+
+.card-right {
+    text-overflow: ellipsis;
+    float: right;
+    overflow: hidden;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.card-left {
+    text-overflow: ellipsis;
+    width: 65%;
+    overflow: hidden;
+    align-items: center;
+}
+
+span {
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .icon1 {
+        margin: auto;
+    }
+
+    .biografi.text1 {
+        padding: 5px;
+    }
+
+    .card-title {
+        height: 80px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    
+
+}
+
+
+
+

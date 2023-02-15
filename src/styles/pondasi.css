@@ -1,0 +1,65 @@
+body {
+    overflow-x: hidden;
+    height: 900px;
+}
+
+.nav-satu ul li {
+    display: inline-block;
+}
+
+.content {
+    width: 70%;
+    margin-top: 55px;
+}
+
+.tombol {
+    background-color: #6A24FF;
+}
+
+.twibbon {
+    width: 100%;
+}
+
+.pondasi {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.satu {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* device */
+
+@media (max-width: 425px) {
+
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .pondasi {
+        box-shadow: none;
+    }
+
+    .tombol {
+        padding: 10px;
+    }
+
+    .me-2 {
+        margin: 10px auto;
+    }
+    
+    .link {
+        justify-content: center;
+    }
+
+}

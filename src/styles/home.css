@@ -1,0 +1,252 @@
+body {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    background-image: url(../resources/img/Group\ 236.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: right;
+    font-size: 2vw;
+}
+
+.text-campaign {
+    margin-top: 150px;
+    padding: 0 0 40px 0;
+}
+
+.title {
+    font-size: 4vw;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.satu {
+    color: blueviolet;
+}
+
+.dua {
+    color: rgb(99, 99, 99);
+}
+
+.item2 {
+    margin-top: 30px;
+}
+
+.navigasi ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    padding: 3px;
+}
+
+.navigasi ul li a:hover {
+    color: rgb(174, 0, 255);
+    cursor: pointer;
+}
+
+.content .content1 {
+    padding: 10px;
+}
+
+.content1 {
+    margin-top: 55px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-overlay {
+    width: 70%;
+    margin: 30px 0 0 30px;
+}
+
+.sponsor {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.kosong {
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: rgb(128, 128, 128);
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.container-footer li {
+    list-style: none;
+}
+
+/* hover */
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.image_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 18px;
+}
+
+.image_overlay:hover {
+    opacity: 0.5;
+}
+
+.container-footer h4 {
+    margin-left: 30px;
+}
+
+.container-footer {
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+/* dekstop */
+
+@media (min-width: 1200px) {
+
+    .jumbotron {
+        height: 820px;
+    }
+
+    .text-campaign {
+        width: 50%;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .item2 {
+        margin-top: 20px;
+    }
+
+    .item5 {
+        float: right;
+    }
+
+    .card-img-overlay {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+
+}
+
+/* tablet */
+
+@media (max-width: 1024px) {
+
+    .jumbotron {
+        width: 510;
+        height: 80vh;
+    }
+
+    .text-campaign {
+        width: 50%;
+        margin-top: 150px;
+    }
+
+    .item5 {
+        float: right;
+    }
+
+    .card-img-overlay {
+        font-size: 13px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    .container-footer {
+        padding: 10px;
+    }
+
+}
+
+/* device */
+
+@media (max-width: 425px) {
+
+    .jumbotron {
+        width: 510;
+        height: 75vh;
+    }
+
+    .text-campaign {
+        width: 100%;
+        margin-top: 160px;
+        font-size: 4vw;
+    }
+
+    .item2 img {
+        max-width: 20%;
+    }    
+
+    .image {
+        padding: 0 10px 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 6vw;
+    }
+
+    .col-md-6 {
+        font-size: 4vw;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .card-img-overlay {
+        font-size: 3vw;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .container-campaign {
+        padding: 20px;
+    }
+
+    .navigasi .item5 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-footer {
+        padding: 15px;
+        margin: auto;
+    }
+    
+}
+

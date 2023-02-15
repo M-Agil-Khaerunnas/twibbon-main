@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+    height: 900px;
+}
+
+.content {
+    width: 70%;
+    margin-top: 55px;
+}
+
+.pondasi {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.twibbon {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tombol1 {
+    width: 75px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #DEDEDE;
+
+}
+
+.tombol-submit {
+    background-color: #6A24FF;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.tombol-submit:hover {
+    background-color: #4500da;
+}
+
+.tombol1:hover {
+    background-color: #6A24FF;
+}
+
+i {
+    color: grey;
+    transition: 0.3s;
+}
+
+button:hover i {
+    color: white;
+}
+
+button:active i {
+    color: white;
+}
+
+/* device */
+
+@media (max-width: 425px) {
+
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .pondasi {
+        box-shadow: none;
+    }
+
+    .form-range {
+        padding: 10px;
+    }
+
+    .tombol {
+        padding: 10px;
+    }
+
+    .me-2 {
+        margin: 10px auto;
+    }
+
+}
